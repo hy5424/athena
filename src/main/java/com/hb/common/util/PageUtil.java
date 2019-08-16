@@ -9,7 +9,7 @@ public class PageUtil {
 
     public static Pageable getPage() {
         Sort sort = new Sort(Sort.Direction.DESC, "id");
-        Pageable pageable = new PageRequest(PAGE, SIZE, sort);
+        Pageable pageable = new PageRequest (PAGE, SIZE, sort);
         return pageable;
     }
 
